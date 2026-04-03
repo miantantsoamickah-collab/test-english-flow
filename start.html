@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+    <div id="registration">
+        <h1>English Flow Exam</h1>
+        <p>Ampidiro ny anaranao feno hanombohana:</p>
+        <input type="text" id="student_name" placeholder="Anarana sy Fanampiny..." required>
+        <button id="start_btn">Start Exam</button>
+    </div>
+
+    <div id="quiz_content" style="display: none;">
+        <div class="quiz-header">
+            <h2 id="timer">Time left: 05:00</h2>
+            <h3 id="question">Question Text</h3>
+            <ul id="options">
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Answer A</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Answer B</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Next Question</button>
+    </div>
+</div>
+</body>
+</html>

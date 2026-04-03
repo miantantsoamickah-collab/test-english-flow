@@ -1,0 +1,112 @@
+/* 1. Fototra sy Loko */
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* 2. Ny Boatin'ny Quiz */
+.quiz-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    width: 90%;
+    max-width: 480px;
+    padding: 35px;
+}
+
+h1 { 
+    color: #1a73e8; 
+    text-align: center; 
+    margin-top: 0;
+ }
+h2 { 
+    font-size: 1.3rem; 
+    line-height: 1.5; 
+    color: #202124;
+}
+
+/* 3. Ny Input sy Select (Registration) */
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1.5px solid #dadce0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    border-color: #1a73e8;
+}
+
+/* 4. NY FANITSIA-NA NY OPTION (Ilay mikorontana teo) */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    background: #f8f9fa;
+    margin-bottom: 12px;
+    border: 1px solid #e8eaed;
+    border-radius: 10px;
+    display: flex;         /* Mampifanila ny boribory sy ny soratra */
+    align-items: center;    /* Mampitovy haavo azy eo afovoany */
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+ul li:hover {
+    background-color: #f1f3f4;
+    border-color: #1a73e8;
+}
+
+/* Fanamboarana ny boribory kely */
+input[type="radio"] {
+    margin-right: 15px;    /* Elanelana eo anelanelan'ny boribory sy soratra */
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    flex-shrink: 0;        /* Tsy mikisaka na dia lava aza ny soratra */
+}
+
+/* Ny soratra (is, are, sns) */
+label {
+    width: 100%;           /* Mba ho azo tsindrina na dia ny soratra aza */
+    cursor: pointer;
+    font-size: 1.05rem;
+    color: #3c4043;
+}
+
+/* 5. Ny Bokotra (Button) */
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 15;
+}
+#timer {
+    text-align: right;
+    font-weight: bold;
+    color: #d93025 !important; /* Mena midorehitra */
+    font-size: 1.2rem;         /* Natao ngeza kely hisongadina */
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #f1f3f4; /* Nampiako tsipika kely eo ambany */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Flow - Certification System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container" id="quiz">
+        <div id="registration-section">
+            <h1>English Flow Exam</h1>
+            <p>Select your level and enter your details</p>
+            <input type="text" id="student_name" placeholder="Your Full Name..." required>
+            
+            <select id="student_level_choice">
+                <option value="Level 1">Level 1 (Beginner)</option>
+                <option value="Level 2">Level 2 (Intermediate)</option>
+                <option value="Level 3">Level 3 (Advanced)</option>
+            </select>
+            
+            <button id="start_btn">Start Examination</button>
+        </div>
+
+        <div id="quiz-section" style="display: none;">
+            <div id="timer">Time left: 05:00</div>
+            <h2 id="question">Question Text</h2>
+            
+            <ul id="options-container">
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Option A</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Option B</label>
+                </li>
+            </ul>
+
+            <div id="description-container" style="display: none; margin-top: 20px;">
+                <p><strong>Writing Task:</strong> Describe your goals for learning English (min. 20 words):</p>
+                <textarea id="student_description" rows="5" placeholder="Write your text here..."></textarea>
+            </div>
+
+            <button id="submit">Next Step</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
