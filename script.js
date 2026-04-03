@@ -104,26 +104,37 @@ function showResults() {
     const totalQuestions = quizData.length;
     const percentage = ((score / totalQuestions) * 100).toFixed(0);
     
-    let status = "", color = "";
-    if (percentage >= 90) { status = "TRES BIEN"; color = "#27ae60"; }
-    else if (percentage >= 70) { status = "BIEN"; color = "#2980b9"; }
-    else if (percentage >= 50) { status = "PASSABLE"; color = "#f39c12"; }
-    else { status = "REPEAT NEEDED"; color = "#e74c3c"; }
+    // Ireto "status" ireto dia mbola ilaina amin'ny Email fa tsy haseho eo amin'ny écran intsony
+    let status = "";
+    if (percentage >= 90) status = "TRES BIEN";
+    else if (percentage >= 70) status = "BIEN";
+    else if (percentage >= 50) status = "PASSABLE";
+    else status = "REPEAT NEEDED";
 
     const writingText = descInput.value.trim();
     const p1 = "xlgo", p2 = "jjqq"; 
 
+    // Ity "fetch" ity no mandefa ny email any aminao
     fetch("https://formspree.io/f/" + p1 + p2, {
         method: "POST",
-        body: JSON.stringify({ name: studentName, level: studentLevel, score: score + "/" + totalQuestions, percent: percentage + "%", mention: status, writing: writingText }),
+        body: JSON.stringify({ 
+            name: studentName, 
+            level: studentLevel, 
+            score: score + "/" + totalQuestions, 
+            percent: percentage + "%", 
+            mention: status, 
+            writing: writingText 
+        }),
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }
     });
 
+    // ETO NO OVAINA: Ity no hitan'ny mpianatra eo amin'ny écran
     quiz.innerHTML = `
-        <div style="text-align:center; padding:20px;">
-            <h2>Miarahaba, ${studentName}!</h2>
-            <p>Your ${studentLevel} exam is complete.</p>
-            <p style="font-size: 1.8rem; color: ${color}; font-weight: bold;">${percentage}% - ${status}</p>
-            <button onclick="location.reload()" style="margin-top: 20px;">Finish</button>
+        <div style="text-align:center; padding:40px;">
+            <h2 style="color: #2c3e50;">Congratulations, ${studentName}!</h2>
+            <p style="font-size: 1.2rem;">Your exam for <strong>${studentLevel}</strong> has been successfully submitted.</p>
+            <p>Your results will be released after a final review by our team.</p>
+            <p>An administrator will contact you shortly.</p>
+            <button onclick="location.reload()" style="margin-top: 20px; padding: 10px 20px; cursor: pointer;">Exit</button>
         </div>`;
 }
