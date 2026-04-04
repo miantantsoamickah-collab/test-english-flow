@@ -1,4 +1,5 @@
 const allQuestions = {
+    const allQuestions = {
     "Level 1": [
         { question: "1. I don't have _______ questions about the lessons.", a: "some", b: "any", correct: "b" },
         { question: "2. The coordinator is _______ expert in communication.", a: "an", b: "a", correct: "a" },
@@ -18,12 +19,12 @@ const allQuestions = {
     ],
     "Level 3": [
         { question: "1. This advanced educational platform _______ by a self-taught developer in 2026.", a: "is created", b: "was created", c: "creates", correct: "b" },
-        { question: "2. The student said, 'I was ready.' -> He said that he _______ ready.", a: "is", b: "was", c: "had been", correct: "c" },
+        { question: "2. The student said, 'I was ready.' -> He said that he _______ ready.", a: "is", b: "was", b: "was", c: "had been", correct: "c" },
         { question: "3. If I _______ more free time, I would learn three different languages.", a: "have", b: "had", c: "would have", correct: "b" },
         { question: "4. I wish I _______ speak English as fluently as a native speaker today.", a: "can", b: "could", c: "will", correct: "b" },
         { question: "5. This is the candidate _______ won the Voice Note Challenge last week.", a: "which", b: "who", c: "whose", correct: "b" },
         { question: "6. This time tomorrow, all the students _______ the final English exam.", a: "will take", b: "will be taking", c: "are taking", correct: "b" },
-        { question: "7. She asked me, 'Where do you live?' -> She asked me where I _______.", a: "lived", b: "lives", c: "live", correct: "a" },
+        { question: "7. She asked me, 'Where do you live?' -> She asked me where I _______.", a: "lived", b: "lives", c: "live", correct: "a" }, // Notsongaina teto ny "a"
         { question: "8. The results _______ to the candidates by email next Tuesday morning.", a: "will send", b: "will be sent", c: "were sent", correct: "b" },
         { question: "9. The laptop _______ I bought for coding is very fast and efficient.", a: "who", b: "whom", c: "which", correct: "c" },
         { question: "10. If she _______ the manager, she would change the communication strategy.", a: "is", b: "was", c: "were", correct: "c" }
