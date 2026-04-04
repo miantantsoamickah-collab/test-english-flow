@@ -1,31 +1,32 @@
 const allQuestions = {
     "Level 1": [
-        { question: "1. I don't have _______ questions about the Elite Pillars.", a: "some", b: "any", correct: "b" },
-        { question: "2. Administrator Mickah is _______ expert in communication.", a: "a", b: "an", correct: "b" },
-        { question: "3. Next Monday, the students _______ their English exam.", a: "will take", b: "took", correct: "a" },
-        { question: "4. Yesterday, I _______ my 'Voice Note Challenge' on Dolby On.", a: "finish", b: "finished", correct: "b" },
-        { question: "5. English Flow is _______ great community for global leaders.", a: "a", b: "an", correct: "a" }
+        { question: "1. I don't have _______ questions about the lessons.", a: "some", b: "any", correct: "b" },
+        { question: "2. The coordinator is _______ expert in communication.", a: "an", b: "a", correct: "a" },
+        { question: "3. Last Sunday, the English Flow team _______ a special meeting.", a: "has", b: "had", correct: "b" },
+        { question: "4. I believe that I _______ a great speaker very soon.", a: "will be", b: "was", correct: "a" },
+        { question: "5. _______ the manager usually coordinate the training sessions?", a: "Does", b: "Do", correct: "a" },
+        { question: "6. _______ the students practice their English every day?", a: "Do", b: "Does", correct: "a" }
     ],
     "Level 2": [
-        { question: "1. Do you have _______ ideas for the new school project?", a: "some", b: "any", c: "no", correct: "b" },
-        { question: "2. Look! The children _______ a bridge to the future right now.", a: "builds", b: "are building", c: "built", correct: "b" },
-        { question: "3. It takes _______ village to raise a child.", a: "an", b: "a", c: "any", correct: "b" },
-        { question: "4. Last year, he _______ a student, but today he is a Manager.", a: "was", b: "is", c: "will be", correct: "a" },
-        { question: "5. Is there _______ here who speaks English fluently?", a: "someone", b: "anyone", c: "something", correct: "b" },
-        { question: "6. I believe that you _______ a great leader in the global world.", a: "are", b: "were", c: "will be", correct: "c" },
-        { question: "7. I have _______ apple, and I want to share it with the team.", a: "an", b: "a", c: "any", correct: "a" }
+        { question: "1. Listen! The teacher _______ to the team about the exam right now.", a: "talks", b: "is talking", c: "talked", correct: "b" },
+        { question: "2. I _______ my assignment, so I am ready to join the session.", a: "finished", b: "have finished", c: "finish", correct: "b" },
+        { question: "3. We _______ start the final evaluation in five minutes.", a: "are going to", b: "will", c: "go to", correct: "a" },
+        { question: "4. I am sorry, but there aren't _______ mistakes in your final writing task.", a: "some", b: "any", c: "no", correct: "b" },
+        { question: "5. If you practice every day, you _______ your English skills very fast.", a: "improved", b: "will improve", c: "would improve", correct: "b" },
+        { question: "6. _______ you ever participated in a Voice Note Challenge before?", a: "Have", b: "Has", c: "Did", correct: "a" },
+        { question: "7. Would you like _______ water before we start the oral exam?", a: "any", b: "some", c: "many", correct: "b" }
     ],
     "Level 3": [
-        { question: "1. (Offer) Would you like _______ coffee before we start?", a: "any", b: "some", c: "no", correct: "b" },
-        { question: "2. The CEO _______ to the office very late yesterday.", a: "comed", b: "came", c: "come", correct: "b" },
-        { question: "3. I have _______ to say to people who don't believe in growth.", a: "anything", b: "something", c: "nothing", correct: "c" },
-        { question: "4. By this time next year, I _______ my degree at CNTEMAD.", a: "will start", b: "started", c: "start", correct: "a" },
-        { question: "5. It is _______ honor to meet an international judge like Chrissy.", a: "a", b: "an", c: "any", correct: "b" },
-        { question: "6. There was hardly _______ in the room when the session began.", a: "anyone", b: "someone", c: "everyone", correct: "a" },
-        { question: "7. We _______ English Flow for three months now and we love it!", a: "joined", b: "have joined", c: "join", correct: "b" },
-        { question: "8. You can take _______ seat you like; they are all free.", a: "some", b: "any", c: "no", correct: "b" },
-        { question: "9. (Passive) The 'Voice Challenge' _______ by Administrator Mickah every week.", a: "is managed", b: "manages", c: "managed", correct: "a" },
-        { question: "10. (Passive) The exam results _______ to the students next Tuesday morning.", a: "will send", b: "were sent", c: "will be sent", correct: "c" }
+        { question: "1. This advanced educational platform _______ by a self-taught developer in 2026.", a: "is created", b: "was created", c: "creates", correct: "b" },
+        { question: "2. The student said, 'I was ready.' -> He said that he _______ ready.", a: "is", b: "was", c: "had been", correct: "c" },
+        { question: "3. If I _______ more free time, I would learn three different languages.", a: "have", b: "had", c: "would have", correct: "b" },
+        { question: "4. I wish I _______ speak English as fluently as a native speaker today.", a: "can", b: "could", c: "will", correct: "b" },
+        { question: "5. This is the candidate _______ won the Voice Note Challenge last week.", a: "which", b: "who", c: "whose", correct: "b" },
+        { question: "6. This time tomorrow, all the students _______ the final English exam.", a: "will take", b: "will be taking", c: "are taking", correct: "b" },
+        { question: "7. She asked me, 'Where do you live?' -> She asked me where I _______.", a: "lived", b: "lives", c: "live", correct: "a" },
+        { question: "8. The results _______ to the candidates by email next Tuesday morning.", a: "will send", b: "will be sent", c: "were sent", correct: "b" },
+        { question: "9. The laptop _______ I bought for coding is very fast and efficient.", a: "who", b: "whom", c: "which", correct: "c" },
+        { question: "10. If she _______ the manager, she would change the communication strategy.", a: "is", b: "was", c: "were", correct: "c" }
     ]
 };
 
