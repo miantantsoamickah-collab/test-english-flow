@@ -197,3 +197,27 @@ window.onbeforeunload = function() {
         return "Your progress is saved, but the timer keeps running!";
     }
 };
+
+// --- 4. SECURITY SYSTEM (PC & MOBILE) ---
+
+// 1. Misakana ny "Long Press" amin'ny Phone sy "Right Click" amin'ny PC
+document.addEventListener('contextmenu', event => event.preventDefault()); 
+
+// 2. Misakana ny fikasana handika (Copy) ny soratra rehetra
+document.addEventListener('copy', event => {
+    event.preventDefault();
+    alert("Copying is disabled during the exam. Focus on your own work!");
+});
+
+// 3. Misakana ny fitambarana fanalahidy (Shortcut keys) amin'ny klavier
+document.onkeydown = function(e) {
+    // F12 (Inspect Element)
+    if(e.keyCode == 123) return false;
+    
+    // Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U (Developer tools)
+    if(e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'J'.charCodeAt(0))) return false;
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) return false;
+    
+    // Ctrl+C (Copy), Ctrl+V (Paste), Ctrl+S (Save)
+    if(e.ctrlKey && (e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'V'.charCodeAt(0) || e.keyCode == 'S'.charCodeAt(0))) return false;
+};
