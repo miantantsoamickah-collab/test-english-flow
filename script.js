@@ -1,40 +1,31 @@
 const allQuestions = {
     "Level 1": [
-        { question: "1. Past tense of 'Eat'?", a: "Ate", b: "Eaten", correct: "a" },
-        { question: "2. 'She ___ happy.'", a: "is", b: "are", correct: "a" },
-        { question: "3. Opposite of 'Big'?", a: "Small", b: "Tall", correct: "a" },
-        { question: "4. Plural of 'Apple'?", a: "Apples", b: "Applees", correct: "a" },
-        { question: "5. 'I ___ to school every day.'", a: "go", b: "goes", correct: "a" },
-        { question: "6. Which is a color?", a: "Blue", b: "Car", correct: "a" },
-        { question: "7. '___ you like coffee?'", a: "Do", b: "Does", correct: "a" },
-        { question: "8. 10 + 5 is...", a: "Fifteen", b: "Fifty", correct: "a" },
-        { question: "9. Today is Monday, tomorrow is...", a: "Tuesday", b: "Sunday", correct: "a" },
-        { question: "10. 'A' or 'An' Umbrella?", a: "A", b: "An", correct: "b" }
+        { question: "1. I don't have _______ questions about the Elite Pillars.", a: "some", b: "any", correct: "b" },
+        { question: "2. Administrator Mickah is _______ expert in communication.", a: "a", b: "an", correct: "b" },
+        { question: "3. Next Monday, the students _______ their English exam.", a: "will take", b: "took", correct: "a" },
+        { question: "4. Yesterday, I _______ my 'Voice Note Challenge' on Dolby On.", a: "finish", b: "finished", correct: "b" },
+        { question: "5. English Flow is _______ great community for global leaders.", a: "a", b: "an", correct: "a" }
     ],
     "Level 2": [
-        { question: "1. 'I have ___ London.'", a: "been to", b: "gone to", correct: "a" },
-        { question: "2. If I ___ rich, I would buy a car.", a: "was", b: "were", correct: "b" },
-        { question: "3. 'She is interested ___ music.'", a: "in", b: "on", correct: "a" },
-        { question: "4. Passive: 'He wrote a book'", a: "A book was written", b: "A book is written", correct: "a" },
-        { question: "5. Opposite of 'Generous'?", a: "Mean", b: "Kind", correct: "a" },
-        { question: "6. 'I've been working ___ 2 hours.'", a: "for", b: "since", correct: "a" },
-        { question: "7. Which is a synonym of 'Quick'?", a: "Fast", b: "Slow", correct: "a" },
-        { question: "8. 'You ___ smoke here.' (Prohibition)", a: "mustn't", b: "don't have to", correct: "a" },
-        { question: "9. 'Look! The bus ___.'", a: "is coming", b: "comes", correct: "a" },
-        { question: "10. 'Despite ___ ill, she came.'", a: "being", b: "she was", correct: "a" }
+        { question: "1. Do you have _______ ideas for the new school project?", a: "some", b: "any", c: "no", correct: "b" },
+        { question: "2. Look! The children _______ a bridge to the future right now.", a: "builds", b: "are building", c: "built", correct: "b" },
+        { question: "3. It takes _______ village to raise a child.", a: "an", b: "a", c: "any", correct: "b" },
+        { question: "4. Last year, he _______ a student, but today he is a Manager.", a: "was", b: "is", c: "will be", correct: "a" },
+        { question: "5. Is there _______ here who speaks English fluently?", a: "someone", b: "anyone", c: "something", correct: "b" },
+        { question: "6. I believe that you _______ a great leader in the global world.", a: "are", b: "were", c: "will be", correct: "c" },
+        { question: "7. I have _______ apple, and I want to share it with the team.", a: "an", b: "a", c: "any", correct: "a" }
     ],
     "Level 3": [
-        { question: "1. 'Hardly ___ started when it rained.'", a: "had I", b: "I had", correct: "a" },
-        { question: "2. Synonym of 'Pragmatic'?", a: "Practical", b: "Theoretical", correct: "a" },
-        
-        { question: "3. 'I'd rather you ___ here.'", a: "stayed", b: "stay", correct: "a" },
-        { question: "4. Meaning of 'To kick the bucket'?", a: "To die", b: "To be angry", correct: "a" },
-        { question: "5. 'The ___ of the meeting was...'", a: "outcome", b: "income", correct: "a" },
-        { question: "6. 'She is used ___ early.'", a: "to waking up", b: "to wake up", correct: "a" },
-        { question: "7. 'He is the man ___ car was stolen.'", a: "whose", b: "whom", correct: "a" },
-        { question: "8. Phrasal verb?", a: "Look up", b: "Look beautiful", correct: "a" },
-        { question: "9. 'It's high time we ___.'", a: "left", b: "leave", correct: "a" },
-        { question: "10. 'I wish I ___ more time yesterday.'", a: "had had", b: "had", correct: "a" }
+        { question: "1. (Offer) Would you like _______ coffee before we start?", a: "any", b: "some", c: "no", correct: "b" },
+        { question: "2. The CEO _______ to the office very late yesterday.", a: "comed", b: "came", c: "come", correct: "b" },
+        { question: "3. I have _______ to say to people who don't believe in growth.", a: "anything", b: "something", c: "nothing", correct: "c" },
+        { question: "4. By this time next year, I _______ my degree at CNTEMAD.", a: "will start", b: "started", c: "start", correct: "a" },
+        { question: "5. It is _______ honor to meet an international judge like Chrissy.", a: "a", b: "an", c: "any", correct: "b" },
+        { question: "6. There was hardly _______ in the room when the session began.", a: "anyone", b: "someone", c: "everyone", correct: "a" },
+        { question: "7. We _______ English Flow for three months now and we love it!", a: "joined", b: "have joined", c: "join", correct: "b" },
+        { question: "8. You can take _______ seat you like; they are all free.", a: "some", b: "any", c: "no", correct: "b" },
+        { question: "9. (Passive) The 'Voice Challenge' _______ by Administrator Mickah every week.", a: "is managed", b: "manages", c: "managed", correct: "a" },
+        { question: "10. (Passive) The exam results _______ to the students next Tuesday morning.", a: "will send", b: "were sent", c: "will be sent", correct: "c" }
     ]
 };
 
@@ -42,13 +33,48 @@ let quizData = [], currentQuiz = 0, score = 0, timeLeft = 300, studentName = "",
 
 const quiz = document.getElementById('quiz'), regSection = document.getElementById('registration-section'), quizSection = document.getElementById('quiz-section');
 const startBtn = document.getElementById('start_btn'), nameInput = document.getElementById('student_name'), levelChoice = document.getElementById('student_level_choice');
-const questionEl = document.getElementById('question'), a_text = document.getElementById('a_text'), b_text = document.getElementById('b_text'), submitBtn = document.getElementById('submit'), timerDisplay = document.getElementById('timer'), answerEls = document.querySelectorAll('.answer');
-const descContainer = document.getElementById('description-container'), descInput = document.getElementById('student_description'), optionsContainer = document.getElementById('options-container');
+const questionEl = document.getElementById('question'), a_text = document.getElementById('a_text'), b_text = document.getElementById('b_text'), c_text = document.getElementById('c_text'), li_c = document.getElementById('li_c');
+const submitBtn = document.getElementById('submit'), timerDisplay = document.getElementById('timer'), answerEls = document.querySelectorAll('.answer');
 
+// 1. CHECK STATUS ON PAGE LOAD
+window.onload = () => {
+    const status = localStorage.getItem("examStatus");
+    
+    if (status === "completed") {
+        quiz.innerHTML = `<div style="text-align:center; padding:40px;"><h2 style="color:#e74c3c;">Access Denied</h2><p>You have already completed this exam.</p></div>`;
+    } 
+    else if (status === "in_progress") {
+        studentName = localStorage.getItem("tempName");
+        studentLevel = localStorage.getItem("tempLevel");
+        currentQuiz = parseInt(localStorage.getItem("tempIndex")) || 0;
+        score = parseInt(localStorage.getItem("tempScore")) || 0;
+        timeLeft = parseInt(localStorage.getItem("tempTime")) || 300;
+
+        regSection.innerHTML = `
+            <h1 style="color:#2c3e50;">Welcome back, ${studentName}</h1>
+            <p>Your exam for <b>${studentLevel}</b> is still in progress.</p>
+            <button id="continue_btn" style="background:#27ae60; color:white; padding:15px; border:none; border-radius:5px; cursor:pointer; width:100%; font-weight:bold; font-size:1.1rem;">Continue My Exam</button>
+        `;
+
+        document.getElementById('continue_btn').onclick = () => {
+            quizData = allQuestions[studentLevel];
+            regSection.style.display = "none";
+            quizSection.style.display = "block";
+            loadQuiz();
+            startTimer();
+        };
+    }
+};
+
+// 2. START NEW EXAM
 startBtn.addEventListener('click', () => {
     studentName = nameInput.value.trim();
     studentLevel = levelChoice.value; 
     if(studentName) {
+        localStorage.setItem("examStatus", "in_progress");
+        localStorage.setItem("tempName", studentName);
+        localStorage.setItem("tempLevel", studentLevel);
+        
         quizData = allQuestions[studentLevel]; 
         regSection.style.display = "none";
         quizSection.style.display = "block";
@@ -63,6 +89,16 @@ function loadQuiz() {
     questionEl.innerText = currentData.question;
     a_text.innerText = currentData.a;
     b_text.innerText = currentData.b;
+
+    if(currentData.c) {
+        li_c.style.display = "block";
+        c_text.innerText = currentData.c;
+    } else {
+        li_c.style.display = "none";
+    }
+
+    localStorage.setItem("tempIndex", currentQuiz);
+    localStorage.setItem("tempScore", score);
 }
 
 function deselectAnswers() { answerEls.forEach(el => el.checked = false); }
@@ -74,25 +110,22 @@ function getSelected() {
 }
 
 submitBtn.addEventListener('click', () => {
-    if (currentQuiz < quizData.length) {
-        const answer = getSelected();
-        if(answer) {
-            if(answer === quizData[currentQuiz].correct) score++;
-            currentQuiz++;
-            if(currentQuiz < quizData.length) loadQuiz();
-            else {
-                questionEl.innerText = "Final Step: Writing Task";
-                optionsContainer.style.display = "none";
-                descContainer.style.display = "block";
-                submitBtn.innerText = "Finish & Send Results";
-            }
-        } else { alert("Please select an answer!"); }
-    } else { showResults(); }
+    const answer = getSelected();
+    if(answer) {
+        if(answer === quizData[currentQuiz].correct) score++;
+        currentQuiz++;
+        if(currentQuiz < quizData.length) {
+            loadQuiz();
+        } else {
+            showResults();
+        }
+    } else { alert("Please select an answer!"); }
 });
 
 function startTimer() {
     timerInterval = setInterval(() => {
         timeLeft--;
+        localStorage.setItem("tempTime", timeLeft);
         let mins = Math.floor(timeLeft / 60), secs = timeLeft % 60;
         timerDisplay.innerText = `Time left: ${mins}:${secs < 10 ? '0' : ''}${secs}`;
         if (timeLeft <= 0) showResults();
@@ -101,20 +134,14 @@ function startTimer() {
 
 function showResults() {
     clearInterval(timerInterval);
+    localStorage.setItem("examStatus", "completed");
+    
     const totalQuestions = quizData.length;
     const percentage = ((score / totalQuestions) * 100).toFixed(0);
-    
-    // Ireto "status" ireto dia mbola ilaina amin'ny Email fa tsy haseho eo amin'ny écran intsony
-    let status = "";
-    if (percentage >= 90) status = "TRES BIEN";
-    else if (percentage >= 70) status = "BIEN";
-    else if (percentage >= 50) status = "PASSABLE";
-    else status = "REPEAT NEEDED";
+    let status = (percentage >= 90) ? "TRES BIEN" : (percentage >= 70) ? "BIEN" : (percentage >= 50) ? "PASSABLE" : "REPEAT NEEDED";
 
-    const writingText = descInput.value.trim();
     const p1 = "xlgo", p2 = "jjqq"; 
 
-    // Ity "fetch" ity no mandefa ny email any aminao
     fetch("https://formspree.io/f/" + p1 + p2, {
         method: "POST",
         body: JSON.stringify({ 
@@ -122,19 +149,51 @@ function showResults() {
             level: studentLevel, 
             score: score + "/" + totalQuestions, 
             percent: percentage + "%", 
-            mention: status, 
-            writing: writingText 
+            mention: status
         }),
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }
     });
 
-    // ETO NO OVAINA: Ity no hitan'ny mpianatra eo amin'ny écran
+    // CONFETTI BURST
+    if (typeof confetti === 'function') {
+        confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 } });
+    }
+
     quiz.innerHTML = `
         <div style="text-align:center; padding:40px;">
+            <h1 style="color: #27ae60; font-size: 3rem;">🎉</h1>
             <h2 style="color: #2c3e50;">Congratulations, ${studentName}!</h2>
-            <p style="font-size: 1.2rem;">Your exam for <strong>${studentLevel}</strong> has been successfully submitted.</p>
-            <p>Your results will be released after a final review by our team.</p>
-            <p>An administrator will contact you shortly.</p>
-            <button onclick="location.reload()" style="margin-top: 20px; padding: 10px 20px; cursor: pointer;">Exit</button>
+            <p style="font-size: 1.1rem;">Your exam for <strong>${studentLevel}</strong> has been successfully submitted.</p>
+            <h3 style="color: #2980b9; font-weight: bold; margin-top: 20px;">IT IS FINISHED</h3>
+            <p>Your results will be reviewed by the English Flow team.</p>
+            <button onclick="localStorage.clear(); location.reload();" 
+                style="margin-top: 30px; padding: 15px 30px; cursor: pointer; background:#2c3e50; color:white; border:none; border-radius:8px; font-weight:bold;">
+                Exit Exam
+            </button>
         </div>`;
 }
+
+// 3. EMERGENCY DATA SEND (IF CLOSED SUDDENLY)
+window.addEventListener('pagehide', function() {
+    if (localStorage.getItem("examStatus") === "in_progress") {
+        const sName = localStorage.getItem("tempName");
+        const sLevel = localStorage.getItem("tempLevel");
+        const sScore = localStorage.getItem("tempScore") || 0;
+        const p1 = "xlgo", p2 = "jjqq";
+
+        const data = JSON.stringify({
+            name: sName + " (INTERRUPTED)",
+            level: sLevel,
+            score: sScore + " (Incomplete/Closed)",
+            status: "User left page before finishing"
+        });
+
+        navigator.sendBeacon("https://formspree.io/f/" + p1 + p2, data);
+    }
+});
+
+window.onbeforeunload = function() {
+    if (quizSection.style.display === "block") {
+        return "Your progress is saved, but the timer keeps running!";
+    }
+};
