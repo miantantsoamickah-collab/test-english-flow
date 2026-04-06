@@ -3,31 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Flow - Certification System</title>
+    <title>English Flow Exam</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
 <body>
 
     <div class="quiz-container" id="quiz">
         <div id="registration-section">
-            <h1>English Flow Exam</h1>
-            <p>Select your level and enter your details</p>
-            <input type="text" id="student_name" placeholder="Your Full Name..." required>
-            
+            <h1>English Flow Assessment</h1>
+            <p>Please enter your details to start the exam.</p>
+            <input type="text" id="student_name" placeholder="Full Name" required>
             <select id="student_level_choice">
                 <option value="Level 1">Level 1 (Beginner)</option>
                 <option value="Level 2">Level 2 (Intermediate)</option>
                 <option value="Level 3">Level 3 (Advanced)</option>
             </select>
-            
-            <button id="start_btn">Start Examination</button>
+            <button id="start_btn">Start Exam</button>
         </div>
 
         <div id="quiz-section" style="display: none;">
-            <div id="timer">Time left: 05:00</div>
-            <h2 id="question">Question Text</h2>
-            
-            <ul id="options-container">
+            <div id="timer">Time left: 5:00</div>
+            <h2 id="question">Question text goes here</h2>
+            <ul>
                 <li>
                     <input type="radio" name="answer" id="a" class="answer">
                     <label for="a" id="a_text">Option A</label>
@@ -36,17 +34,15 @@
                     <input type="radio" name="answer" id="b" class="answer">
                     <label for="b" id="b_text">Option B</label>
                 </li>
-                <li id="li_c" style="display: none;">
+                <li id="li_c">
                     <input type="radio" name="answer" id="c" class="answer">
                     <label for="c" id="c_text">Option C</label>
                 </li>
             </ul>
-
-            <button id="submit">Next Step</button>
+            <button id="submit">Submit Answer</button>
         </div>
     </div>
 
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </body>
 </html>
